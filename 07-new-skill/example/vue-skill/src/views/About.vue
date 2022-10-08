@@ -1,9 +1,7 @@
 <script>
 import SuspenseBar from "../components/Suspense.vue";
 export default {
-  components: {
-    SuspenseBar,
-  },
+  components: { SuspenseBar },
   setup() {
     return {};
   },

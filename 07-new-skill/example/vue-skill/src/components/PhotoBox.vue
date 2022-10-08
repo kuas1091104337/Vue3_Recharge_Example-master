@@ -5,7 +5,6 @@ export default {
     const photo = await axios.get(
       "https://vue-lessons-api.herokuapp.com/photo/list"
     );
-
     return { photo: photo.data };
   },
 };
